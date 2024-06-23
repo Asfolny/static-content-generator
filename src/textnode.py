@@ -7,7 +7,11 @@ class TextNode:
         self.url = url
 
     def __eq__(self, cmp):
-        return self.text == cmp.text and self.text_type == cmp.text_type and self.url == cmp.url
+        return (
+            self.text == cmp.text
+            and self.text_type == cmp.text_type
+            and self.url == cmp.url
+        )
 
     def __repr__(self):
         return f"TextNode({self.text}, {self.text_type}, {self.url})"
