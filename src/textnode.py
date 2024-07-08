@@ -41,4 +41,3 @@ class TextNode:
         
         raise ValueError(f"Unsupported text type: {text_node.text_type}")
 
-
