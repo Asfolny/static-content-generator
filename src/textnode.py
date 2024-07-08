@@ -1,3 +1,12 @@
+from htmlnode import LeafNode
+
+type_text = "text"
+type_bold = "bold"
+type_italic = "italic"
+type_code = "code"
+type_link = "link"
+type_image = "image"
+
 class TextNode:
     """A markdown textnode"""
 
